@@ -12,43 +12,63 @@
 
     h1 {
         color: chartreuse;
-        margin-top: 1%;
+        margin-top: 5%;
         font-family: 'Times New Roman', Times, serif;
+
     }
 
-    h2 {
+    h2,
+    hr {
         color: aliceblue;
+    }
+
+    img {
+
+        margin: 20%;
+    }
+
+    .col-2 {
+        margin: 2%;
     }
 </style>
 
 <body>
     <div class="container">
-        <div class="col-6">
-            <h1>SKILLS</h1>
-            <hr>
-            <h2>C</h2>&nbsp;&nbsp;<div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
-            </div><br><br>
-            <h2>Python</h2>&nbsp;&nbsp;<div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
-            </div><br><br>
-            <h2>Html</h2>&nbsp;&nbsp;<div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div><br><br>
-            <h2>CSS</h2>&nbsp;&nbsp;<div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div><br><br>
-            <h2>Bootstrap</h2>&nbsp;&nbsp;<div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
-            </div><br>
-            <a href="front.html"><button class="btn btn-success navbar-btn" id="button">Back</button></a>
+        <div class="row">
+            <div class="col-6">
+                <h1>SKILLS</h1>
+                <hr>
+                <h2>C</h2>&nbsp;&nbsp;<div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div><br>
+                <h2>Python</h2>&nbsp;&nbsp;<div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div><br>
+                <h2>Html</h2>&nbsp;&nbsp;<div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div><br>
+                <h2>CSS</h2>&nbsp;&nbsp;<div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div><br>
+                <h2>Bootstrap</h2>&nbsp;&nbsp;<div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div><br>
+                <a href="front.html"><button class="btn btn-success navbar-btn" id="button">Back</button></a>
+            </div>
+            <div class="col-3">
+                <img src="images/c logo.png" alt="" width="100"><img src="images/HTML5_badge.png" alt="" width="100">
+                <img src="images/python-logo.png" alt="" width="100">
+            </div>
+            <div class="col-2">
+                <img src="images/css logo.png" alt="" width="100"><img src="images/bootstrap-logo.png" alt=""
+                    width="150">
+            </div>
         </div>
-        
     </div>
 </body>
 
