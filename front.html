@@ -36,25 +36,32 @@
     .fa {
         color: rgb(254, 254, 254);
     }
-    h3{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .nav{
+
+    .nav {
         padding-right: 30%;
     }
-    h6{
+
+    h6 {
         font-size: 400%;
-        font-family:Algerian;
+        font-family: Algerian;
         padding-top: 2%;
     }
-    
+
+    .dark-mode {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
 </style>
 
 <body>
     <marquee behavior="scroll" direction="right" scrollamount="20">
-        <h6>Kavin raj</h6>
+        <h6>perfect coder</h6>
     </marquee>
-    
+
     <div class="container"><br>
         <div class="row">
             <div class="col-3">
@@ -72,25 +79,32 @@
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a href="me.html"><button class="btn btn-outline-success"><i class="fa fa-user-circle"
-                            aria-hidden="true">&nbsp;&nbsp;About</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    aria-hidden="true">&nbsp;&nbsp;About</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </li>
                     <li class="nav-item">
                         <a href="skill.html"><button class="btn btn-outline-success"><i class="fa fa-apple"
-                            aria-hidden="true">&nbsp;&nbsp;Skill</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    aria-hidden="true">&nbsp;&nbsp;Skill</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </li>
                     <li class="nav-item">
                         <a href="project.html"><button class="btn btn-outline-success"><i class="fa fa-paper-plane"
-                            aria-hidden="true">&nbsp;&nbsp;project</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    aria-hidden="true">&nbsp;&nbsp;project</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     </li>
                     <li class="nav-item">
                         <a href="contact.html"><button class="btn btn-outline-success"><i class="fa fa-envelope"
-                                aria-hidden="true">&nbsp;&nbsp;Contact</i></button></a>
+                                    aria-hidden="true">&nbsp;&nbsp;Contact</i></button></a>
                     </li>
-                  </ul>
+                </ul>
             </div>
         </div>
     </div>
+    <button onclick="myFunction()">theme</button>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 
 </html>
